@@ -1,8 +1,9 @@
-bukva = (a..z).to_a
+bukva = ("a".."z").to_a
 i = 1
+hash = {}
  
- while i < 29 do
- 	hash[:i] = bukva[i]	
+ while i <= 26 do
+ 	hash[bukva[i-1]] = i	
  	i += 1
  end
  
