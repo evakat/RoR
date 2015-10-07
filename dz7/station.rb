@@ -15,3 +15,4 @@ class Station
 	def list_of_trains_print
 		puts "список поездов #{@list_trains}"
 	end
+end
