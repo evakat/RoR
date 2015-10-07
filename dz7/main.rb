@@ -49,7 +49,7 @@ def create_station
   loop do 
 	puts "Введите название станции или 0 для выхода"
     name_st = gets.chomp
-    break if name == "0"
+    break if name_st == "0"
     @station << Station.new(name_st)
   end
 end
